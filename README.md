@@ -1,7 +1,5 @@
-[![Bootstrap 4: First Look](hero.png)]()
-
-# Bootstrap 4: First Look
-This is the repository for my course, [Bootstrap 4: First Look](). The full course is available at [lynda.com](http://lynda.com).
+# Building an Interface with React
+This is the repository for my course, [Building an Interface with React](). The full course is available at [lynda.com](http://lynda.com).
 - [My Personal Website](http://raybo.org)
 
 
@@ -12,8 +10,8 @@ This repository has branches for each of the videos in the course. You can use t
 	- [node.js](http://nodejs.org/)
 	- [git](http://git-scm.com/)
 	- [gulp](http://gulpjs.com/)
-2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone https://github.com/planetoftheweb/bootstrap.git`
-3. CD to the folder `cd bootstrap`
+2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone https://github.com/planetoftheweb/reactinterface.git`
+3. CD to the folder `cd reactinterface`
 4. Run `> npm install` to install the project dependencies
 5. Run `> gulp` command to start the automation
 6. Build something awesome
