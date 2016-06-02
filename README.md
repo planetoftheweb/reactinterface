@@ -1,5 +1,5 @@
 # Building an Interface with React
-This is the repository for my course, [Building an Interface with React](). The full course is available at [lynda.com](http://lynda.com).
+This is the repository for my course, [Building an Interface with React](). The full course will be available at [lynda.com](http://lynda.com).
 - [My Personal Website](http://raybo.org)
 
 
