@@ -116,7 +116,7 @@ var MainInterface = React.createClass({
           onReOrder = { this.reOrder }
           onSearch = { this.searchApts }
            />
-        <ul className="item-list thing media-list">{ filteredApts }</ul>
+        <ul className="item-list media-list">{ filteredApts }</ul>
       </div>
     )
   }
