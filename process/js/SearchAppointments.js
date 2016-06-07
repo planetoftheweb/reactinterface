@@ -10,12 +10,16 @@ var SearchAppointments = React.createClass({
     this.props.onReOrder(this.props.orderBy, e.target.id);
   }, //handleSort
 
+  handleSearch: function(e) {
+    this.props.onSearch(e.target.value);
+  }, //handleSearch
+
   render: function() {
     return(
       <div className="row search-appointments">
         <div className="col-sm-offset-3 col-sm-6">
           <div className="input-group">
-            <input id="SearchApts" placeholder="Search" type="text" className="form-control" aria-label="Search Appointments" />
+            <input id="SearchApts" onChange={ this.handleSearch } placeholder="Search" type="text" className="form-control" aria-label="Search Appointments" />
             <div className="input-group-btn">
               <button type="button" className="btn btn-primary dropdown-toggle"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort by: <span className="caret"></span></button>
