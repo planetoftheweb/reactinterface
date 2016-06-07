@@ -11,12 +11,12 @@ var SearchAppointments = React.createClass({
               <button type="button" className="btn btn-primary dropdown-toggle"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort by: <span className="caret"></span></button>
                 <ul className="dropdown-menu dropdown-menu-right">
-                  <li><a href="#" id="petName">Pet Name</a></li>
-                  <li><a href="#" id="aptDate">Date</a></li>
-                  <li><a href="#" id="ownerName">Owner</a></li>
+                  <li><a href="#" id="petName">Pet Name { (this.props.orderBy === 'petName') ? <span className="glyphicon glyphicon-ok"></span>: null }</a></li>
+                  <li><a href="#" id="aptDate">Date { (this.props.orderBy === 'aptDate') ? <span className="glyphicon glyphicon-ok"></span>: null }</a></li>
+                  <li><a href="#" id="ownerName">Owner { (this.props.orderBy === 'ownerName') ? <span className="glyphicon glyphicon-ok"></span>: null }</a></li>
                   <li role="separator" className="divider"></li>
-                  <li><a href="#" id="asc">Asc</a></li>
-                  <li><a href="#" id="desc">Desc</a></li>
+                  <li><a href="#" id="asc">Asc { (this.props.orderDir === 'asc') ? <span className="glyphicon glyphicon-ok"></span>: null }</a></li>
+                  <li><a href="#" id="desc">Desc { (this.props.orderDir === 'desc') ? <span className="glyphicon glyphicon-ok"></span>: null }</a></li>
                 </ul>
             </div>
           </div>
