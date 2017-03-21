@@ -27,4 +27,4 @@ var AptList = React.createClass({
   } // render
 }); //AptList
 
-module.exports=AptList;
+module.exports = AptList;
