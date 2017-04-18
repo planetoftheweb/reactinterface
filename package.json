@@ -8,6 +8,7 @@
   },
   "author": "Ray Villalobos",
   "devDependencies": {
+    "create-react-class": "^15.5.2",
     "gulp": "^3.8.8",
     "gulp-browserify": "^0.5.1",
     "gulp-react": "^3.1.0",
